@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Yung-Sung Chuang"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Undergraduate student in Electrical Engineering at National Taiwan University."
   location         : "Taipei, Taiwan"
-  email            :
+  email            : "b05901033@ntu.edu.tw"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:b05901033 AT ntu.edu.tw
+      url: mailto:b05901033@ntu.edu.tw
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://voidism.github.io/homepage/"
@@ -128,9 +128,18 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/voidism"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yschuang/"
+    - label: "CV"
+      icon: "fab fa-fw fa-id-card"
+      url: "https://voidism.github.io/homepage/CV.pdf"
+    - label: "DBLP"
+      icon: "fab fa-fw fa-book"
+      url: "https://dblp.org/pers/hd/c/Chuang:Yung=Sung"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com.tw/citations?user=3ar1DOwAAAAJ"
 
 # Site Footer
 footer:
