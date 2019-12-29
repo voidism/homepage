@@ -12,10 +12,10 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "zh-TW"
+locale                   : "en-US"
 title                    : "Yung-Sung Chuang's website"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -25,7 +25,7 @@ url                      : "https://voidism.github.io" # the base hostname & pro
 baseurl                  : "/homepage" # the subpath of your site, e.g. "/blog"
 repository               : "voidism/homepage" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/teaser.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Yung-Sung Chuang"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Undergraduate student in Electrical Engineering at National Taiwan University."
   location         : "Taipei, Taiwan"
-  email            :
+  email            : "b05901033@ntu.edu.tw"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:b05901033 AT ntu.edu.tw
+      url: mailto:b05901033@ntu.edu.tw
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://voidism.github.io/homepage/"
@@ -128,9 +128,18 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/voidism"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yschuang/"
+    - label: "CV"
+      icon: "fab fa-fw fa-id-card"
+      url: "https://voidism.github.io/homepage/CV.pdf"
+    - label: "DBLP"
+      icon: "fab fa-fw fa-book"
+      url: "https://dblp.org/pers/hd/c/Chuang:Yung=Sung"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com.tw/citations?user=3ar1DOwAAAAJ"
 
 # Site Footer
 footer:
