@@ -256,6 +256,14 @@
           </a>
         </li>
       {% endif %}
+      
+      {% if author.cv %}
+        <li>
+          <a href="{{ author.uri }}{{ author.cv }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw id-card" aria-hidden="true"></i> CV
+          </a>
+        </li>
+      {% endif %}
 
       {% include author-profile-custom-links.html %}
     </ul>
