@@ -15,17 +15,17 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "zh-TW"
+title                    : "Yung-Sung Chuang's website"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+name                     : "Yung-Sung Chuang"
+description              : "Undergrad student in EE at NTU."
+url                      : "https://voidism.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/homepage" # the subpath of your site, e.g. "/blog"
+repository               : "voidism/homepage" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -84,9 +84,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "YungSungChuang"
 facebook:
-  username               :
+  username               : "ChuangYungSung"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -99,35 +99,35 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-155012660-1"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Yung-Sung Chuang"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Yung-Sung Chuang is now an undergraduate student in Electrical Engineering at National Taiwan University. His research interest broadly covers the deep learning technique for natural language processing and speech processing. In particular, he aims to utilize the ability of machines to help people grasp large information in text/audio form in efficient ways. Towards this goal, he joined Speech Processing Lab supervised by [Hung-Yi Lee](http://speech.ee.ntu.edu.tw/~tlkagk/index.html) and Machine Intelligence Understanding Lab supervised by [Yun-Nung (Vivian) Chen](https://www.csie.ntu.edu.tw/~yvchen/). He has several publications on related topics, such as spoken question answering, clinical text conclusion generation, and Chinese word segmentation."
+  location         : "Taipei, Taiwan"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:b05901033 AT ntu.edu.tw
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://voidism.github.io/homepage/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/YungSungChuang"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/ChuangYungSung"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/voidism"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -137,13 +137,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/YungSungChuang"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/voidism"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
