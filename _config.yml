@@ -24,7 +24,7 @@ description              : "Undergrad student in EE at NTU."
 url                      : "https://voidism.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/homepage" # the subpath of your site, e.g. "/blog"
 repository               : "voidism/homepage" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "assets/images/teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "assets/images/teaser.pn" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/teaser.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -111,9 +111,9 @@ author:
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Undergraduate student in Electrical Engineering at National Taiwan University."
   location         : "Taipei, Taiwan"
-  email            : "b05901033@ntu.edu.tw"
+  email            : # "b05901033@ntu.edu.tw"
   links:
-    - label: "Email"
+    - label: "b05901033[AT]ntu.edu.tw"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:b05901033@ntu.edu.tw
     - label: "Website"
@@ -132,13 +132,13 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/yschuang/"
     - label: "CV"
-      icon: "fab fa-fw fa-id-card"
+      icon: "fas fa-fw fa-id-card"
       url: "https://voidism.github.io/homepage/CV.pdf"
     - label: "DBLP"
-      icon: "fab fa-fw fa-book"
+      icon: "fas fa-fw fa-book"
       url: "https://dblp.org/pers/hd/c/Chuang:Yung=Sung"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-user-graduate"
+      icon: "fas fa-fw fa-user-graduate"
       url: "https://scholar.google.com.tw/citations?user=3ar1DOwAAAAJ"
 
 # Site Footer
