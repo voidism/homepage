@@ -138,7 +138,7 @@ author:
       icon: "fab fa-fw fa-book"
       url: "https://dblp.org/pers/hd/c/Chuang:Yung=Sung"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-graduation-cap"
+      icon: "fab fa-fw fa-user-graduate"
       url: "https://scholar.google.com.tw/citations?user=3ar1DOwAAAAJ"
 
 # Site Footer
